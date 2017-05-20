@@ -1,0 +1,1 @@
+<script type="text/javascript">var SatelliteAjax = "<?php echo SATL_PLUGIN_URL ?>/<?php echo SATL_PLUGIN_NAME ?>-ajax.php";</script>

@@ -1,0 +1,333 @@
+/* 
+    Document   : admin-styles
+    Created on : Jan 19, 2012, 11:33:28 PM
+    Author     : Cameron
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body.toplevel_page_satellite, body.satellite_page_satellite-galleries, body.satellite_page_satellite-slides {
+  background-image : none;
+  background-color: rgba(244,244,244,1);
+}
+.fl-l { float:left }
+.fl-r { float: right }
+.no-display { display:none }
+.satsection-header {
+    height: 24px;
+    color: #666;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    line-height: 24px;
+    position: relative;
+    background: white;
+    margin: 30px 0 30px 0;
+    vertical-align: middle;
+    font-family: 'Georgia',serif;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-image: initial;
+}
+#satl_table, .satl_table {
+    background-color:#eef5fb; 
+    padding:10px;
+    border: 0;
+}
+.form-table td, .form-table th {
+    border: 0;
+}
+.satl_table {
+    padding: 10px;
+}
+form.satl_table {
+    border: 2px #888 solid;
+}
+form.satl_table table {
+    border: 0;
+}
+#satl_table td, #satl_table th, .satl_table td, .satl_table th {
+    border: 0;
+}
+#satl_table .howto, .satl_table .howto {
+    margin-bottom:10px;
+}
+.togbox {
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    color: #CCC;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px 0 0;
+    background: #666;
+    text-decoration: none;
+    font-family: monospace;
+    vertical-align: text-top;
+    border: 1px solid transparent;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    zoom: 1 !ie<8;
+    display: inline !ie<8;
+    margin-top: 0 !ie<8;
+    border-image: initial;
+    cursor:pointer;
+}
+
+#poststuff h3 {
+    padding: 12px;
+    font-size:1.6em;
+    clear:none;
+}
+
+h3 span {
+    text-transform: none;
+}
+
+#misc-publishing-actions.preminfo {
+    padding: 2px 15px;
+}
+/*** Configuration ***/
+.metabox-holder label {
+    width:auto;
+}
+.metabox-holder input, .metabox-holder textarea, .metabox-holder select, .metabox-holder .uneditable-input {
+    padding:2px;
+}
+
+.form-table input[type=radio] {
+    background: #DDD;
+}
+.form-table label {
+   /* padding-left:10px;*/
+}
+
+.filelist {
+    width: 60%;
+}
+.filelist .file {
+    padding: 5px;
+    background: #ececec;
+    border: solid 1px #ccc;
+    margin-bottom: 4px;
+}
+.filelist .fileprogress {
+    width: 0%;
+    background: #B7C53D;
+    height: 5px;
+}
+.plupload-thumbs {
+ 
+}
+.plupload-thumbs .thumb {
+    width: 80px;
+    padding-right: 5px;
+    float: left;
+}
+.plupload-thumbs .thumb img {
+    width: 60px;
+    height: 60px;
+}
+.ui-sortable  .thumb img {
+    cursor: pointer;
+}
+.verttop {
+    vertical-align: top;
+}
+.star-rating {
+    background: transparent url('../images/5star.jpg') bottom;
+    height:20px;
+    width:102px;
+    display:block;
+}
+.star-rating:hover {
+    background-position: top;
+}
+#toplevel_page_satellite ul {
+    list-style:none;
+}
+.toplevel_page_satellite .inner-sidebar #side-sortables {
+  min-height:0px;
+}
+#fixed li {
+  height: 120px;
+  border-bottom: 1px solid gray;
+}
+
+#fixed {
+    height: 400px;
+    overflow: auto;
+}
+.slide-holder {
+  clear:both;
+  display: inline-block;
+  width: 100%;
+}
+.loader-check { width: 4%;margin-left:3px}
+.loader-title { width: 25%;}
+.loader-image { min-width: 15%;}
+.loader-uselink { width: 10%;}
+.loader-section { width: 10%;}
+.loader-date {width: 15%; }
+.loader-order { width: 10%;}
+
+/**** Slides Page ******/
+
+#gallery-slide-switch {
+  float:right;
+  display:block;
+  font-size:1.2em;
+  clear:both;
+  margin: 30px 5px 0 0;
+}
+
+.viewonly form {
+  margin:0;
+}
+.edit {
+  cursor:pointer;
+}
+
+/**** Angular Specific ****/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none;
+}
+
+/**** Infinite Scroll Specific ****/
+
+.scrollSpace {
+  margin-bottom: 415px;
+}
+
+
+/*** Settings Pages ***/
+.satl-settings form th {
+  text-transform: none;
+}
+.satl-settings #gallery-slide-switch a:visited {
+  color: #FFF;
+}
+input[type="submit"] {
+  padding: 5px 24px 5px;
+}
+
+/*** Bootstrap fixes ***/
+a.btn { text-decoration: none; }
+a.btn:hover { color: #FFF; }
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn, input.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+input.btn {
+    height: 30px;
+    padding: 5px 10px;
+}
+input.btn:active {
+    height: 30px;
+    padding: 5px 10px;
+}
+ul.slide-order {
+    float:left;
+}
+li.lineitem {
+    list-style: none;
+    padding: 2px 5px 2px 5px;
+    background-color: #F1F1F1 !important;
+    border:1px solid #B2B2B2;
+    cursor: move;
+    vertical-align: middle !important;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width:200px;
+    float:left;
+    margin: 5px;
+    font-size: 12px;
+}
+li.lineitem img {
+    height: 150px;
+    margin: 5px 25px;
+}
+li.lineitem p {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+.red-msg {
+    color: red;
+}
+.slide-order-msg {
+    height: 48px;
+}
+.slide-order-msg .slide-status { float:left;}
+.slide-order-msg .slide-msg { float:left;}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+}
+.btn.btn-primary:hover {
+	background-color: #2ca8e4;
+}
+.btn.btn-info:hover {
+	background-color: #41cae4;
+}
+.btn.btn-success:hover {
+	background-color: #55cc60;
+}
+.btn.btn-warning:hover {
+	background-color: #f9d92c;
+}

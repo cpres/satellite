@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slideshow Gallery pro .fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-09 10:35-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: lull <lulldelull@hotmail.com>\n"
+"Language-Team: A vous le web ! <contact@avousleweb.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../wp-content/plugins/slideshow-gallery-pro/languages/\n"
+"Plural-Forms: nplurals=2;plural=n>2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../slideshow-gallery-plugin.php:209
+msgid "Uploads folder named \""
+msgstr "T&eacute;l&eacute;charger un dossier nomm&eacute;"
+
+#: ../slideshow-gallery-plugin.php:513
+msgid "Settings"
+msgstr "R&eacute;glages"
+
+#: ../slideshow-gallery-pro-ajax.php:25
+msgid "Slides have been ordered"
+msgstr "Galerie tri&eacute;e"
+
+#: ../slideshow-gallery-pro.php:55
+msgid "Slideshow"
+msgstr ""
+
+#: ../slideshow-gallery-pro.php:56
+msgid "Configuration"
+msgstr ""
+
+#: ../slideshow-gallery-pro.php:57
+msgid "Manage Slides"
+msgstr "Gestion des images"
+
+#: ../slideshow-gallery-pro.php:67
+msgid "Save Settings"
+msgstr "Enregistrer r&eacute;glages"
+
+#: ../slideshow-gallery-pro.php:68
+msgid "General Settings"
+msgstr "R&eacute;glage g&eacute;n&eacute;rale"
+
+#: ../slideshow-gallery-pro.php:69
+msgid "Links &amp; Images Overlay"
+msgstr ""
+
+#: ../slideshow-gallery-pro.php:70
+msgid "Appearance &amp; Styles"
+msgstr "Apparence  &amp;  Styles"
+
+#: ../slideshow-gallery-pro.php:287
+msgid "Slide has been removed"
+msgstr "Le slide a &eacute;t&eacute; déplac&eacute;e"
+
+#: ../slideshow-gallery-pro.php:290
+msgid "Slide cannot be removed"
+msgstr "Image ne pas être deplac&eacute;e"
+
+#: ../slideshow-gallery-pro.php:294
+msgid "No slide was specified"
+msgstr "Pas de défilement sp&eacutecifi&eacute;"
+
+#: ../slideshow-gallery-pro.php:302
+msgid "Slide has been saved"
+msgstr "Image enregistr&eacute;e"
+
+#: ../slideshow-gallery-pro.php:322
+msgid "Selected slides have been removed"
+msgstr "L'image selectionn&eacute;e a &eacute;t&eacute; s&eacute;l&eacute;ction&eacute;é"
+
+#: ../slideshow-gallery-pro.php:327
+msgid "No slides were selected"
+msgstr "Pas de défilement selectionn&eacute;"
+
+#: ../slideshow-gallery-pro.php:331
+msgid "No action was specified"
+msgstr "Pas d'action sp&eacute;cifi&eacute;"
+
+#: ../slideshow-gallery-pro.php:353
+msgid "All configuration settings have been reset to their defaults"
+msgstr "Tous les r&eacute;glages par d&eacute;faut sont restaur&eacute;s"
+
+#: ../slideshow-gallery-pro.php:357
+msgid "Configuration settings could not be reset"
+msgstr "La configuration ne pas etre restaur&eacute;e"
+
+#: ../slideshow-gallery-pro.php:370
+msgid "Configuration has been saved"
+msgstr "La configuration a &eacute;t&eacute; enregistr&eacute;e"
+
+#: ../js/tinymce/dialog.php:13
+msgid "Insert a Satellite slideshow"
+msgstr "Ins&eacute;rer un Satellite slideshow"
+
+#: ../js/tinymce/dialog.php:59
+msgid "Images From a Post"
+msgstr "Image d'un article"
+
+#: ../js/tinymce/dialog.php:60
+msgid "Custom Added Slides"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:66
+msgid "Post"
+msgstr "Article"
+
+#: ../js/tinymce/dialog.php:69
+msgid "Select a Post"
+msgstr "Selectionnez un article"
+
+#: ../js/tinymce/dialog.php:70
+msgid "THIS POST"
+msgstr "Cet article"
+
+#: ../js/tinymce/dialog.php:78
+msgid "Exclude"
+msgstr "Exclure"
+
+#: ../js/tinymce/dialog.php:80
+msgid "comma separated IDs of attachments to exclude"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:94
+msgid "Auto On"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:97
+msgid "Auto Off"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:102
+msgid "Thumbs On"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:105
+msgid "Thumbs Off"
+msgstr ""
+
+#: ../models/slide.php:57
+msgid "Please fill in a title"
+msgstr "Ecrire un titre SVP"
+
+#: ../models/slide.php:59
+msgid "Please select an image type"
+msgstr "S&eacute;lectionner une image SVP"
+
+#: ../models/slide.php:76
+msgid "The image did not upload, please try again"
+msgstr "L'image n'est pas charg&eacute;e, essayer  &agrave; nouveau"
+
+#: ../models/slide.php:77
+msgid "Image could not be moved from TMP to "
+msgstr ""
+
+#: ../models/slide.php:97
+msgid "The image file is too large"
+msgstr "Le fichier image est trop large"
+
+#: ../models/slide.php:100
+msgid "The image was partially uploaded, please try again"
+msgstr "l&acute;image n'est pas entierement charg&eacute;e, recommencez SVP"
+
+#: ../models/slide.php:103
+msgid "No image was chosen for uploading, please choose an image"
+msgstr "Pas d'image choisit, choissisez une image SVP"
+
+#: ../models/slide.php:106
+msgid "No TMP directory has been specified for PHP to use, please ask your hosting provider"
+msgstr ""
+
+#: ../models/slide.php:109
+msgid "Image cannot be written to disc, please ask your hosting provider"
+msgstr ""
+
+#: ../models/slide.php:115
+msgid "Please specify an image"
+msgstr "Sp&eacute;cifier une image SVP"
+
+#: ../models/slide.php:140
+msgid "No data was posted"
+msgstr ""
+
+#: ../pro/settings-navbuttons.php:3
+#: ../views/admin/metaboxes/settings-styles.php:12
+msgid "Classic"
+msgstr "Classique"
+
+#: ../pro/settings-navbuttons.php:5
+msgid "Box"
+msgstr "Carré"
+
+#: ../pro/settings-navbuttons.php:7
+msgid "Circle"
+msgstr "Rond"
+
+#: ../pro/settings-navbuttons.php:9
+msgid "Simple"
+msgstr "Simple"
+
+#: ../vendors/class.paginate.php:175
+msgid "Displaying"
+msgstr "Afficher"
+
+#: ../vendors/class.paginate.php:175
+msgid "of"
+msgstr "de"
+
+#: ../vendors/class.paginate.php:178
+msgid "Previous Page"
+msgstr "Page pr&eacute;c&eacute;dente"
+
+#: ../vendors/class.paginate.php:186
+msgid "Page"
+msgstr "Page"
+
+#: ../vendors/class.paginate.php:197
+msgid "Next Page"
+msgstr "Prochaine Page"
+
+#: ../views/admin/settings.php:8
+msgid "Configuration Settings"
+msgstr "R&eacute;glages de la configuration"
+
+#: ../views/admin/metaboxes/settings-general.php:4
+msgid "Transition Style"
+msgstr "Style de transition"
+
+#: ../views/admin/metaboxes/settings-general.php:8
+#: ../views/admin/metaboxes/settings-general.php:17
+msgid "Default Fade"
+msgstr "Navigation par d&eacute;faut"
+
+#: ../views/admin/metaboxes/settings-general.php:9
+#: ../views/admin/metaboxes/settings-general.php:18
+msgid "Orbit Fade"
+msgstr "Navigation Orbit"
+
+#: ../views/admin/metaboxes/settings-general.php:10
+#: ../views/admin/metaboxes/settings-general.php:19
+msgid "Orbit Horizontal-Slide"
+msgstr "Navigation Orbit horizontal"
+
+#: ../views/admin/metaboxes/settings-general.php:11
+#: ../views/admin/metaboxes/settings-general.php:20
+msgid "Orbit Vertical-Slide"
+msgstr "Naviagation Orbit vertical"
+
+#: ../views/admin/metaboxes/settings-general.php:12
+#: ../views/admin/metaboxes/settings-general.php:21
+msgid "Orbit Horizontal-Push"
+msgstr "Pousse Orbit harizontal"
+
+#: ../views/admin/metaboxes/settings-general.php:13
+msgid "Orbit Multi-Image Slider"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:27
+msgid "Auto Slide"
+msgstr "D&eacute;filement automatique"
+
+#: ../views/admin/metaboxes/settings-general.php:29
+#: ../views/admin/metaboxes/settings-general.php:105
+#: ../views/admin/metaboxes/settings-general.php:154
+#: ../views/admin/metaboxes/settings-general.php:188
+#: ../views/admin/metaboxes/settings-linksimages.php:33
+#: ../views/admin/metaboxes/settings-styles.php:22
+#: ../views/admin/metaboxes/settings-styles.php:34
+msgid "Yes"
+msgstr "Oui"
+
+#: ../views/admin/metaboxes/settings-general.php:30
+#: ../views/admin/metaboxes/settings-general.php:106
+#: ../views/admin/metaboxes/settings-general.php:155
+#: ../views/admin/metaboxes/settings-general.php:189
+#: ../views/admin/metaboxes/settings-linksimages.php:34
+#: ../views/admin/metaboxes/settings-styles.php:23
+#: ../views/admin/metaboxes/settings-styles.php:35
+msgid "No"
+msgstr "Non"
+
+#: ../views/admin/metaboxes/settings-general.php:60
+#: ../views/admin/metaboxes/settings-general.php:118
+msgid "Auto Speed"
+msgstr "Vitesse automatique"
+
+#: ../views/admin/metaboxes/settings-general.php:62
+#: ../views/admin/metaboxes/settings-general.php:120
+#: ../views/admin/metaboxes/settings-general.php:221
+msgid "speed"
+msgstr "Vitesse"
+
+#: ../views/admin/metaboxes/settings-general.php:63
+msgid "default:5000 recommended:2000-12000"
+msgstr "D&eacute;faut:5 recommend&eacute;:1-20"
+
+#: ../views/admin/metaboxes/settings-general.php:63
+msgid "lower number for quicker length of time between sliding of images"
+msgstr "Chiffre bas pour la rapidit&eacute; du temps entre les images"
+
+#: ../views/admin/metaboxes/settings-general.php:72
+msgid "Transition Speed"
+msgstr "Vitesse de transition"
+
+#: ../views/admin/metaboxes/settings-general.php:74
+msgid "duration"
+msgstr "Dur&eacute;e"
+
+#: ../views/admin/metaboxes/settings-general.php:75
+msgid "default:700 recommended:300-2000"
+msgstr "D&eacute;faut:10 recommendé:1- 20"
+
+#: ../views/admin/metaboxes/settings-general.php:75
+msgid "lower number for quicker transition of images"
+msgstr "chiffre bas pour rapidit&eacute; de transistion d&acute;image"
+
+#: ../views/admin/metaboxes/settings-general.php:79
+msgid "Thumbnail Style"
+msgstr "Style de Vignette"
+
+#: ../views/admin/metaboxes/settings-general.php:81
+msgid "None"
+msgstr "Aucun"
+
+#: ../views/admin/metaboxes/settings-general.php:82
+msgid "Bullets"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:83
+msgid "More image thumbnails coming soon"
+msgstr "Plus d'images bientot"
+
+#: ../views/admin/metaboxes/settings-general.php:92
+msgid "Number of Images in a Row"
+msgstr "Nombre d&acute;images dans le rang"
+
+#: ../views/admin/metaboxes/settings-general.php:99
+msgid "Number of columns in your multi-image slider"
+msgstr "Nombre de colonne dans votre multi-image slider"
+
+#: ../views/admin/metaboxes/settings-general.php:103
+msgid "Drop Shadow"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:121
+msgid "default:10"
+msgstr "Defaut:10"
+
+#: ../views/admin/metaboxes/settings-general.php:121
+msgid "lower number for shorter interval between images"
+msgstr "Chiffre + bas pour raccourcir interval entre image"
+
+#: ../views/admin/metaboxes/settings-general.php:131
+msgid "Image Fading Speed"
+msgstr "Vitesse de transition des images"
+
+#: ../views/admin/metaboxes/settings-general.php:134
+msgid "default:50 recommended:1-100"
+msgstr "Défault:50 recommand&eacute;:1-100"
+
+#: ../views/admin/metaboxes/settings-general.php:134
+msgid "lower number for quicker fading of images"
+msgstr "Chiffre + bas pour rapidit&eacute; du glissement d&acute;image"
+
+#: ../views/admin/metaboxes/settings-general.php:138
+msgid "Navigation Default Opacity"
+msgstr "Transparence par d&eacute;faut de la navigation"
+
+#: ../views/admin/metaboxes/settings-general.php:140
+#: ../views/admin/metaboxes/settings-general.php:147
+#: ../views/admin/metaboxes/settings-general.php:207
+msgid "&#37; <!-- percentage -->"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:141
+msgid "opacity of the prev/next buttons by default"
+msgstr "Transparence des boutons pr&eacute;cedente/prochain"
+
+#: ../views/admin/metaboxes/settings-general.php:145
+msgid "Navigation Hover Opacity"
+msgstr "Transparence de la navigation au survol"
+
+#: ../views/admin/metaboxes/settings-general.php:148
+msgid "opacity of the prev/next buttons when they are hovered"
+msgstr "Transparence du bouton pr&eacute;c&eacute;dente/prochaine au survol"
+
+#: ../views/admin/metaboxes/settings-general.php:152
+msgid "Show Information"
+msgstr "Voir les informations"
+
+#: ../views/admin/metaboxes/settings-general.php:164
+msgid "Information Speed"
+msgstr "Vitesse d'information"
+
+#: ../views/admin/metaboxes/settings-general.php:167
+msgid "speed at which the information will slide in"
+msgstr "Vitesse des informations d&eacute;filantes"
+
+#: ../views/admin/metaboxes/settings-general.php:171
+msgid "Information Display Settings"
+msgstr "R&eacute;glages de la configuration"
+
+#: ../views/admin/metaboxes/settings-general.php:174
+msgid "Scroll Up"
+msgstr "Transition vers le haut"
+
+#: ../views/admin/metaboxes/settings-general.php:175
+msgid "Permanently Show"
+msgstr "Afficher en permanence"
+
+#: ../views/admin/metaboxes/settings-general.php:176
+msgid "Mouse Hover Only"
+msgstr "Survol de la souris seulement"
+
+#: ../views/admin/metaboxes/settings-general.php:177
+msgid "How do you want to display the information (caption) bar?"
+msgstr "Comment voulez-vous afficher la barre information ?"
+
+#: ../views/admin/metaboxes/settings-general.php:186
+msgid "Show Thumbnails"
+msgstr "Voir vignette"
+
+#: ../views/admin/metaboxes/settings-general.php:198
+msgid "Thumbnails Position"
+msgstr "Position des vignettes"
+
+#: ../views/admin/metaboxes/settings-general.php:200
+msgid "Top"
+msgstr "Haut"
+
+#: ../views/admin/metaboxes/settings-general.php:201
+msgid "Bottom"
+msgstr "Bas"
+
+#: ../views/admin/metaboxes/settings-general.php:205
+msgid "Thumbnail Opacity"
+msgstr "Transparence Vignette"
+
+#: ../views/admin/metaboxes/settings-general.php:208
+msgid "default opacity of thumbnails when they are not hovered"
+msgstr "Transparence des vignettes au survol"
+
+#: ../views/admin/metaboxes/settings-general.php:212
+msgid "Thumbnail Active Border"
+msgstr "Bordure active des vignettes"
+
+#: ../views/admin/metaboxes/settings-general.php:215
+msgid "border color (hexidecimal) for the active image thumbnail. default:#FFFFFF"
+msgstr "Couleur de bordure (Hexidecimal) pour la vignette active: defaut:#FFFFFF"
+
+#: ../views/admin/metaboxes/settings-general.php:219
+msgid "Thumbnails Scroll Speed"
+msgstr "Vitesse de la Scrol bar des vignettes"
+
+#: ../views/admin/metaboxes/settings-general.php:222
+msgid "default:5 recommended:1-20"
+msgstr "Défaut:5 recommend&eacute;:1-20"
+
+#: ../views/admin/metaboxes/settings-general.php:226
+msgid "Thumbnail Spacing"
+msgstr "Espacement des vignettes"
+
+#: ../views/admin/metaboxes/settings-general.php:228
+#: ../views/admin/metaboxes/settings-styles.php:42
+#: ../views/admin/metaboxes/settings-styles.php:49
+#: ../views/admin/metaboxes/settings-styles.php:56
+msgid "px"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:229
+msgid "horizontal margin/spacing between thumbnails"
+msgstr "Marge et espace horizonal entre les vignettes"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:4
+msgid "Open Images in..."
+msgstr "Ouvrir image dans..."
+
+#: ../views/admin/metaboxes/settings-linksimages.php:6
+msgid "No Link"
+msgstr "Pas de lien"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:7
+msgid "Window"
+msgstr "Fenetre"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:8
+msgid "Thickbox"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-linksimages.php:9
+msgid "Shadowbox"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-linksimages.php:10
+msgid "PrettyPhoto"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-linksimages.php:11
+msgid "Thickbox comes standard with your Wordpress install. Shadowbox and Prettyphoto come only with a specific theme or plugin"
+msgstr "Thickbox est par d&eacute;faut avec wordpress. Shadowbox and Prettyphoto avec des thèmes sp&eacute;cifiques ou plugin (ci-dessous)"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:15
+msgid "Recommendations"
+msgstr "Recommandations"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:22
+msgid "Page Link Target"
+msgstr "Cible du lien de la page"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:24
+msgid "Current Tab"
+msgstr "Onglet courant"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:25
+msgid "New Tab"
+msgstr "Nouvel onglet"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:26
+msgid "Same as setting that <em>target</em> pages are &quot;_self&quot; or &quot;_blank&quot;"
+msgstr "Pour que le lien de l&acute;image s'ouvre dans l'onglet courant ou dans un nouvel onglet"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:31
+msgid "Use Caption Field as a Link?"
+msgstr "Utilisez le titre comme un Lien ?"
+
+#: ../views/admin/metaboxes/settings-linksimages.php:35
+msgid "If using the <strong>Wordpress Image Gallery</strong> you can still link out to a new page by using the Caption Field"
+msgstr "Si vous utilisez <strong>Wordpress Image Gallery</strong> vous pouvez avoir un lien sur vos titres"
+
+#: ../views/admin/metaboxes/settings-styles.php:5
+msgid "Navigational Buttons"
+msgstr "Bouton de navigation"
+
+#: ../views/admin/metaboxes/settings-styles.php:16
+msgid "FULL EDITION ONLY: Choose your nav buttons for left and right transitioning"
+msgstr "Full edtion seuelemt: Choississez votre bouton de navigation gauche et droite de transition"
+
+#: ../views/admin/metaboxes/settings-styles.php:20
+msgid "Resize Images (width)"
+msgstr "Redimmensionner les images (largeur)"
+
+#: ../views/admin/metaboxes/settings-styles.php:24
+msgid "should images be resized proportionally to fit the width of the slideshow area"
+msgstr "Pour adapter la largeur de vos images à la largeur de votre slideshow"
+
+#: ../views/admin/metaboxes/settings-styles.php:32
+msgid "Resize Images (height)"
+msgstr "Redimmensionner les images (Hauteur)"
+
+#: ../views/admin/metaboxes/settings-styles.php:36
+msgid "Full Edition only. Should images be resized proportionally to fit the height of the slideshow area. "
+msgstr "Full Edition seulement. Pour adepter la hauteur de vos images à la hauteur du slideshow"
+
+#: ../views/admin/metaboxes/settings-styles.php:40
+msgid "Gallery Width"
+msgstr "Largeur Galerie"
+
+#: ../views/admin/metaboxes/settings-styles.php:43
+msgid "width of the slideshow gallery"
+msgstr "Largeur de la galerie slideshow"
+
+#: ../views/admin/metaboxes/settings-styles.php:47
+msgid "Gallery Height"
+msgstr "Hauteur Galerie"
+
+#: ../views/admin/metaboxes/settings-styles.php:50
+msgid "height of the slideshow gallery"
+msgstr "Hauteur de la galerie"
+
+#: ../views/admin/metaboxes/settings-styles.php:54
+msgid "Thumbnail Height"
+msgstr "Hauteur de la Vignette"
+
+#: ../views/admin/metaboxes/settings-styles.php:57
+msgid "height of your thumbnails"
+msgstr "Hauteur de la vignette"
+
+#: ../views/admin/metaboxes/settings-styles.php:61
+msgid "Slideshow Border"
+msgstr "Bordure slideshow"
+
+#: ../views/admin/metaboxes/settings-styles.php:67
+msgid "Slideshow Background"
+msgstr "Arri&eacute;re plan Slideshow"
+
+#: ../views/admin/metaboxes/settings-styles.php:73
+msgid "Information Background"
+msgstr "Arri&eacute;re plan information"
+
+#: ../views/admin/metaboxes/settings-styles.php:79
+msgid "Information Text Color"
+msgstr "Couleur du texte informatif"
+
+#: ../views/admin/metaboxes/settings-styles.php:85
+msgid "Minimize Information Bar Height?"
+msgstr "Minimiser la barre d'information ?"
+
+#: ../views/admin/metaboxes/settings-styles.php:87
+msgid "Yes, minimize"
+msgstr "Oui, minimise"
+
+#: ../views/admin/metaboxes/settings-styles.php:88
+msgid "No, keep styling"
+msgstr "Non, garde le style"
+
+#: ../views/admin/metaboxes/settings-styles.php:89
+msgid "Keep your theme styling for &quot;H5&quot; and &quot;p&quot;? Or minimize them."
+msgstr "Garder le style de votre theme for &quot;H5&quot; and &quot;p&quot;? ou minimisez le."
+
+#: ../views/admin/metaboxes/settings-submit.php:5
+msgid "Reset all configuration settings to their default values"
+msgstr "Remmettre les tous r&eacute;glages par d&eacute;faut"
+
+#: ../views/admin/metaboxes/settings-submit.php:5
+msgid "Are you sure you wish to reset all configuration settings?"
+msgstr "Estes vous sur de vouloir remettre les r&eacute;glages par d&eacute;faut ?"
+
+#: ../views/admin/metaboxes/settings-submit.php:5
+msgid "Reset to Defaults"
+msgstr "Paramètres par defaut"
+
+#: ../views/admin/metaboxes/settings-submit.php:11
+msgid "Save Configuration"
+msgstr "Enregistrer configuration"
+
+#: ../views/admin/slides/index.php:2
+msgid "Add New"
+msgstr "Ajouter nouvelle image"
+
+#: ../views/admin/slides/index.php:6
+msgid "slides"
+msgstr ""
+
+#: ../views/admin/slides/index.php:12
+msgid "Are you sure you wish to execute this action on the selected slides?"
+msgstr "Etes vous sure de vouloir faire cette action sur le slide selectionné ?"
+
+#: ../views/admin/slides/index.php:15
+msgid "Order all your slides"
+msgstr "Trier toutes vos images"
+
+#: ../views/admin/slides/index.php:15
+#: ../views/admin/slides/order.php:2
+msgid "Order Slides"
+msgstr "Trier image"
+
+#: ../views/admin/slides/index.php:18
+msgid "Bulk Actions"
+msgstr "Toutes"
+
+#: ../views/admin/slides/index.php:19
+#: ../views/admin/slides/index.php:61
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../views/admin/slides/index.php:21
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../views/admin/slides/index.php:30
+#: ../views/admin/slides/index.php:41
+msgid "Image"
+msgstr ""
+
+#: ../views/admin/slides/index.php:31
+#: ../views/admin/slides/index.php:42
+#: ../views/admin/slides/save.php:10
+msgid "Title"
+msgstr "Titre"
+
+#: ../views/admin/slides/index.php:32
+#: ../views/admin/slides/index.php:43
+msgid "Link"
+msgstr "liens"
+
+#: ../views/admin/slides/index.php:33
+#: ../views/admin/slides/index.php:44
+msgid "Date"
+msgstr ""
+
+#: ../views/admin/slides/index.php:34
+#: ../views/admin/slides/index.php:45
+#: ../views/admin/slides/save.php:26
+msgid "Section"
+msgstr ""
+
+#: ../views/admin/slides/index.php:35
+#: ../views/admin/slides/index.php:46
+msgid "Order"
+msgstr "Ordre"
+
+#: ../views/admin/slides/index.php:60
+msgid "Edit"
+msgstr ""
+
+#: ../views/admin/slides/index.php:61
+msgid "Are you sure you want to permanently remove this slide?"
+msgstr "Etes vous sure de vouloir annuler le slide selectionné ?"
+
+#: ../views/admin/slides/index.php:85
+#: ../views/admin/slides/order.php:62
+msgid "No slides found"
+msgstr "Pas de slide trouver"
+
+#: ../views/admin/slides/order.php:4
+msgid "&larr; Manage All Slides"
+msgstr "R&eacute;gler toutes les images"
+
+#: ../views/admin/slides/save.php:2
+msgid "Save a Slide"
+msgstr "Enregistrer un slide"
+
+#: ../views/admin/slides/save.php:13
+msgid "title/name of your slide as it will be displayed to your users."
+msgstr "Titre/nom du slide comme il doit d'afficher pour vos utilisateurs"
+
+#: ../views/admin/slides/save.php:18
+msgid "Description"
+msgstr ""
+
+#: ../views/admin/slides/save.php:21
+msgid "description of your slide as it will be displayed to your users below the title."
+msgstr "Description de votre image comme elle doit s'afficher pour vos visiteurs"
+
+#: ../views/admin/slides/save.php:35
+msgid "FULL EDITION ONLY: which custom slideshow would you like this image to apply to?"
+msgstr ""
+
+#: ../views/admin/slides/save.php:40
+msgid "Image Type"
+msgstr "Type d'image"
+
+#: ../views/admin/slides/save.php:42
+msgid "Upload File (recommended)"
+msgstr "T&eacute;l&eacute;charger un fichier (recommand&eacute;)"
+
+#: ../views/admin/slides/save.php:43
+msgid "Specify URL"
+msgstr "Sp&eacute;cifier une URL"
+
+#: ../views/admin/slides/save.php:45
+msgid "do you want to upload an image or specify a local/remote image URL?"
+msgstr "Voulez-vous t&eacute;l&eacute;charger un fichier ou sp&eacute;cifier une URL ?"
+
+#: ../views/admin/slides/save.php:56
+msgid "Choose Image"
+msgstr "Choisir l'image"
+
+#: ../views/admin/slides/save.php:59
+msgid "choose your image file from your computer. JPG, PNG, GIF, SWF are supported."
+msgstr "Choississez une image sur votre ordinateur JPG, PNG, GIF, SWF sont accept&eacute;s"
+
+#: ../views/admin/slides/save.php:69
+msgid "Current thumbnail. Leave the field above blank to keep this image."
+msgstr "Miniature actuelle. Laissez le champ ci-dessus vide pour garder cette image."
+
+#: ../views/admin/slides/save.php:107
+msgid "Image URL"
+msgstr ""
+
+#: ../views/admin/slides/save.php:110
+msgid "Local or remote image location eg. http://domain.com/path/to/image.jpg"
+msgstr ""
+
+#: ../views/admin/slides/save.php:121
+msgid "Use Link"
+msgstr "Utiliser un lien"
+
+#: ../views/admin/slides/save.php:125
+msgid "set this to Yes to link this slide to a link/URL of your choice."
+msgstr "selectionnez OUI pour cr&eacute;er un lien/URL de votre choix sur votre image"
+
+#: ../views/admin/slides/save.php:135
+msgid "Link To"
+msgstr "liens vers"
+
+#: ../views/admin/slides/save.php:138
+msgid "link/URL to go to when a user clicks the slide eg. http://www.domain.com/mypage/"
+msgstr "Inscrivez le lien vers lequelle votre image pointera  http://www.monsite.com/mapage/"
+
+#: ../views/admin/slides/save.php:146
+msgid "Save Slide"
+msgstr "Enregistrer slide"
+
+#: ../views/default/gallery.php:91
+#: ../views/default/gallery.php:113
+msgid "Slide Left"
+msgstr "Slide gauche"
+
+#: ../views/default/gallery.php:95
+#: ../views/default/gallery.php:117
+msgid "Slide Right"
+msgstr "Slide droite"
+
+#~ msgid "Please fill in a description"
+#~ msgstr "Ecrire une description SVP"
+
+#~ msgid "add new"
+#~ msgstr "Ajouter nouvelle"
